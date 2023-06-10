@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Code Editor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 >Online Code Editor</h1>
+  <h3 >Compile HTML,CSS And Javascript Code on the Web</h3>
+
+  <div class="editor">
+    <div class="code-pane" style="background-color: #a1c6a2cc;">
+      <h4>HTML</h4>
+      <textarea id="htmlCode" placeholder="HTML code..."></textarea>
+    </div>
+    <div class="code-pane" style="background-color: #a1c6a2cc;">
+      <h4>CSS</h4>
+      <textarea id="cssCode" placeholder="CSS code..."></textarea>
+    </div>
+    <div class="code-pane" style="background-color: #a1c6a2cc;">
+      <h4>JavaScript</h4>
+      <textarea id="jsCode" placeholder="JavaScript code..."></textarea>
+    </div>
+    <div class="preview-pane ">
+      <h4 >Preview</h4>
+      <iframe id="preview"></iframe>
+    </div>
+  </div>
+  
+  <button class="button" onclick="runCode()">Run</button>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
