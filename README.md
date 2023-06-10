@@ -1,1 +1,2 @@
 # CodeAlpha_OnlineCodeEditor
+Online Code Editor is a simple project developed using HTML, CSS, and JavaScript that allows users to write, edit, and execute code directly from their web browsers .Also, see its results on another side. On the result side, we can only see the content that we write inside the body tag. While the codes inside other tags are not seen but it helps in making some changes to the body content.
